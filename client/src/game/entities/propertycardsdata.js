@@ -1,0 +1,100 @@
+var PropertyCardsData ={
+  //type
+  //1: Start
+  //2: Title deed
+  //3: community chest
+  //4: Income Tax
+  //5: Utility
+  //6: Chance
+  //7: Jail
+  //8: Free parking
+  //9: Go To Jail
+
+  boardOne: [
+    { card:0, width:100, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Start', rent:0, type:1, icon:null},
+    { card:1, width:50, height:100, angle:0, color:'#7142f4', alpha:0.7, name:'Deepcreek\nAvenue', rent:600, type:2, icon:null},
+    { card:2, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Community\nChest', rent:0, type:3, icon:'IconChest'},
+    { card:3, width:50, height:100, angle:0, color:'#7142f4', alpha:0.7, name:'For Sale\nAvenue', rent:600, type:2, icon:null},
+    { card:4, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Developer\nFund', rent:2000, type:4, icon:null},
+    { card:5, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Cryptopia\nExchange', rent:2000, type:5, icon:'IconExchange'},
+    { card:6, width:50, height:100 , angle:0, color:'#09efef', alpha:0.7, name:'Eurocentiem\nGarden', rent:1000, type:2, icon:null},
+    { card:7, width:50, height:100 , angle:0, color:'#52ba65', alpha:0.7, name:'Chance', rent:0, type:6, icon:'IconChance'},
+    { card:8, width:50, height:100 , angle:0, color:'#09efef', alpha:0.7, name:'For Sale\nAvenue', rent:1000, type:2, icon:null},
+    { card:9, width:50, height:100 , angle:0, color:'#09efef', alpha:0.7, name:'For Sale\nAvenue', rent:1200, type:2, icon:null},
+    { card:10, width:100, height:100 , angle:0, color:'#f44842', alpha:0.7, name:'Wallet\nMaintenance', rent:0, type:7, icon:'IconJail'},
+    { card:11, width:50, height:100, angle:90, color:'#820959', alpha:0.7, name:'For Sale\nPlace', rent:1400, type:2, icon:null},
+    { card:12, width:50, height:100, angle:90, color:'#52ba65', alpha:0.7, name:'Masternode\nEurope', rent:1500, type:5, icon:'IconMasterNode'},
+    { card:13, width:50, height:100, angle:90, color:'#820959', alpha:0.7, name:'For Sale\nAvenue', rent:1400, type:2, icon:null},
+    { card:14, width:50, height:100, angle:90, color:'#820959', alpha:0.7, name:'For Sale\nAvenue', rent:1600, type:2, icon:null},
+    { card:15, width:50, height:100, angle:90, color:'#52ba65', alpha:0.7, name:'Unknown\nExchange', rent:2000, type:5, icon:'IconExchange'},
+    { card:16, width:50, height:100, angle:90, color:'#f49c30', alpha:0.7, name:'For Sale\nPlace', rent:1800, type:2, icon:null},
+    { card:17, width:50, height:100, angle:90, color:'#52ba65', alpha:0.7, name:'Community\nChest', rent:0, type:3, icon:'IconChest'},
+    { card:18, width:50, height:100, angle:90, color:'#f49c30', alpha:0.7, name:'For Sale\nAvenue', rent:1400, type:2, icon:null},
+    { card:19, width:50, height:100, angle:90, color:'#f49c30', alpha:0.7, name:'For Sale\nAvenue', rent:1400, type:2, icon:null},
+    { card:20, width:100, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Wheel of \nFortune', rent:0, type:8, icon:'IconParking'},
+    { card:21, width:50, height:100, angle:0, color:'#fc0800', alpha:0.7, name:'For Sale\nAvenue', rent:2200, type:2, icon:null},
+    { card:22, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Chance', rent:0, type:6, icon:'IconChance'},
+    { card:23, width:50, height:100, angle:0, color:'#fc0800', alpha:0.7, name:'For Sale\nAvenue', rent:2200, type:2, icon:null},
+    { card:24, width:50, height:100, angle:0, color:'#fc0800', alpha:0.7, name:'For Sale\nAvenue', rent:2400, type:2, icon:null},
+    { card:25, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Altilly\nExchange', rent:2000, type:5, icon:'IconExchange'},
+    { card:26, width:50, height:100 , angle:0, color:'#f7f302', alpha:0.7, name:'For Sale\nAvenue', rent:2600, type:2, icon:null},
+    { card:27, width:50, height:100 , angle:0, color:'#f7f302', alpha:0.7, name:'For Sale\nAvenue', rent:2600, type:2, icon:null},
+    { card:28, width:50, height:100 , angle:0, color:'#52ba65', alpha:0.7, name:'Masternode\nUS', rent:1500, type:2, icon:'IconMasterNode'},
+    { card:29, width:50, height:100 , angle:0, color:'#f7f302', alpha:0.7, name:'Shane\'s\nGarden', rent:2800, type:2, icon:null},
+    { card:30, width:100, height:100 , angle:0, color:'#f44842', alpha:0.7, name:'Go to Wallet\nMaintenance', rent:0, type:9, icon:'IconGoBack'},
+    { card:31, width:50, height:100, angle:270, color:'#38b204', alpha:0.7, name:'For Sale\nAvenue', rent:3000, type:2, icon:null},
+    { card:32, width:50, height:100, angle:270, color:'#38b204', alpha:0.7, name:'For Sale\nAvenue', rent:3000, type:2, icon:null},
+    { card:33, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'Community\nChest', rent:0, type:3, icon:'IconChest'},
+    { card:34, width:50, height:100, angle:270, color:'#38b204', alpha:0.7, name:'For Sale\nAvenue', rent:3200, type:2, icon:null},
+    { card:35, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'KuCoin\nExchange', rent:2000, type:5, icon:'IconExchange'},
+    { card:36, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'Chance', rent:0, type:6, icon:'IconChance'},
+    { card:37, width:50, height:100, angle:270, color:'#043bb2', alpha:0.7, name:'For Sale\nPlace', rent:3500, type:2, icon:null},
+    { card:38, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'Developer\nFund', rent:2000, type:4, icon:null},
+    { card:39, width:50, height:100, angle:270, color:'#043bb2', alpha:0.7, name:'For Sale\nWalk', rent:4000, type:2, icon:null},
+  ],
+  boardTwo: [
+    { card:0, width:100, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Start', rent:0, type:1},
+    { card:1, width:50, height:100, angle:0, color:'#7142f4', alpha:0.7, name:'Mediter\nAvenue', rent:60, type:2},
+    { card:2, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Community\nChest', rent:0, type:3},
+    { card:3, width:50, height:100, angle:0, color:'#7142f4', alpha:0.7, name:'Baltic\nAvenue', rent:60, type:2},
+    { card:4, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Income\nTax', rent:200, type:4},
+    { card:5, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Reading\nRailroad', rent:200, type:5},
+    { card:6, width:50, height:100 , angle:0, color:'#09efef', alpha:0.7, name:'Oriental\nAvenue', rent:100, type:2},
+    { card:7, width:50, height:100 , angle:0, color:'#52ba65', alpha:0.7, name:'Chance', rent:0, type:6},
+    { card:8, width:50, height:100 , angle:0, color:'#09efef', alpha:0.7, name:'Vermont\nAvenue', rent:100, type:2},
+    { card:9, width:50, height:100 , angle:0, color:'#09efef', alpha:0.7, name:'Conneticut\nAvenue', rent:120, type:2},
+    { card:10, width:100, height:100 , angle:0, color:'#f44842', alpha:0.7, name:'Jail', rent:0, type:7},
+    { card:11, width:50, height:100, angle:90, color:'#820959', alpha:0.7, name:'St. Charles\nPlace', rent:140, type:2},
+    { card:12, width:50, height:100, angle:90, color:'#52ba65', alpha:0.7, name:'Electric\nCompany', rent:150, type:5},
+    { card:13, width:50, height:100, angle:90, color:'#820959', alpha:0.7, name:'States\nAvenue', rent:140, type:2},
+    { card:14, width:50, height:100, angle:90, color:'#820959', alpha:0.7, name:'Virginia\nAvenue', rent:160, type:2},
+    { card:15, width:50, height:100, angle:90, color:'#52ba65', alpha:0.7, name:'Pennyslvalia\nRailroad', rent:200, type:5},
+    { card:16, width:50, height:100, angle:90, color:'#f49c30', alpha:0.7, name:'St.James\nPlace', rent:180, type:2},
+    { card:17, width:50, height:100, angle:90, color:'#52ba65', alpha:0.7, name:'Community\nChest', rent:0, type:3},
+    { card:18, width:50, height:100, angle:90, color:'#f49c30', alpha:0.7, name:'Tennesee\nAvenue', rent:140, type:2},
+    { card:19, width:50, height:100, angle:90, color:'#f49c30', alpha:0.7, name:'New York\nAvenue', rent:140, type:2},
+    { card:20, width:100, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'Free\nParking', rent:0, type:8},
+    { card:21, width:50, height:100, angle:0, color:'#fc0800', alpha:0.7, name:'Kentucky\nAvenue', rent:220, type:2},
+    { card:22, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'chance', rent:0, type:6},
+    { card:23, width:50, height:100, angle:0, color:'#fc0800', alpha:0.7, name:'Indiana\nAvenue', rent:220, type:2},
+    { card:24, width:50, height:100, angle:0, color:'#fc0800', alpha:0.7, name:'Illinois\nAvenue', rent:240, type:2},
+    { card:25, width:50, height:100, angle:0, color:'#52ba65', alpha:0.7, name:'B&O\nRailroad', rent:200, type:5},
+    { card:26, width:50, height:100 , angle:0, color:'#f7f302', alpha:0.7, name:'Atlantic\nAvenue', rent:260, type:2},
+    { card:27, width:50, height:100 , angle:0, color:'#f7f302', alpha:0.7, name:'Ventor\nAvenue', rent:260, type:2},
+    { card:28, width:50, height:100 , angle:0, color:'#52ba65', alpha:0.7, name:'Water\nWorks', rent:150, type:2},
+    { card:29, width:50, height:100 , angle:0, color:'#f7f302', alpha:0.7, name:'Marvin\nGarden', rent:280, type:2},
+    { card:30, width:100, height:100 , angle:0, color:'#f44842', alpha:0.7, name:'Go to Jail', rent:0, type:9},
+    { card:31, width:50, height:100, angle:270, color:'#38b204', alpha:0.7, name:'Pacific\nAvenue', rent:300, type:2},
+    { card:32, width:50, height:100, angle:270, color:'#38b204', alpha:0.7, name:'North\nCarolina\nAvenue', rent:300, type:2},
+    { card:33, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'Community\nChest', rent:0, type:3},
+    { card:34, width:50, height:100, angle:270, color:'#38b204', alpha:0.7, name:'Pensylvania\nAvenue', rent:320, type:2},
+    { card:35, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'Short Line\nRailroad', rent:200, type:5},
+    { card:36, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'Chance', rent:0, type:6},
+    { card:37, width:50, height:100, angle:270, color:'#043bb2', alpha:0.7, name:'Park\nPlace', rent:350, type:2},
+    { card:38, width:50, height:100, angle:270, color:'#52ba65', alpha:0.7, name:'Luxury\nTax', rent:0, type:4},
+    { card:39, width:50, height:100, angle:270, color:'#043bb2', alpha:0.7, name:'Board\nWalk', rent:400, type:2},
+  ]
+
+};
+
+module.exports = PropertyCardsData;
